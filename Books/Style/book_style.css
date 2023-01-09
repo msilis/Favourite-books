@@ -1,0 +1,57 @@
+input {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    
+}
+
+button {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    background-color: azure;
+    
+
+}
+
+
+#book_info_outer_container {
+    border: 1px solid red;
+}
+
+#book_info_edit_container {
+    border: 1px solid pink;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+#book_data_submit {
+    margin: .5rem;
+}
+
+#book_info_display_container {
+    border: 1px solid peru;
+    padding: .5rem;
+    margin: .5rem;
+
+}
+
+#current_book_display {
+    border: 1px solid lime;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+#book_action_buttons {
+    margin: .5rem;
+}
+
+#book_quick_card_list {
+    border: 1px solid salmon;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+#book_quick_card_list {
+    border: 1px solid blue;
+    padding: 1rem;
+    margin: .5rem;
+}

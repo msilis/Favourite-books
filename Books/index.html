@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Books</title>
+    <link rel="stylesheet" type="text/css" href="./Style/book_style.css">
+</head>
+<body>
+    <div id="book_info_outer_container">
+        <div id="book_info_edit_container">
+            <div class="headline">
+                <h1 id="main_title">Book Info</h1>
+            </div>
+            <div class="input_fields">
+                <input type="text" id="book_title" placeholder="Book Title">
+                <input type="text" id="book_author" placeholder="Author">
+                <input type="text" id="book_genre" placeholder="Genre">
+                <input type="text" id="book_reviews" placeholder="Reviews">
+            </div>
+            <div id="book_data_submit">
+                <button type="submit" id="add_book_button">Add Book</button>
+            </div>
+        
+        </div>
+        <div id="book_info_display_container">
+            <div id="current_book_display">
+
+            </div>
+            <div id="book_action_buttons">
+                <button type="button" id="edit_book_info_button">Edit</button>
+                <button type="button" id="delete_book_button">Delete</button>
+            </div>
+        </div>
+    </div>
+    <div id="book_quick_card_container">
+        <ul id="book_quick_card_list">
+
+        </ul>
+    </div>
+    <script src="./js/book_script.js"></script>
+</body>
+</html>
