@@ -1,15 +1,22 @@
 input {
     border: 1px solid lightblue;
     border-radius: 5px;
-    
+    padding: .25rem;
+    margin: .5rem;
 }
 
 button {
     border: 1px solid lightblue;
     border-radius: 5px;
     background-color: azure;
-    
+}
 
+ul {
+    margin: 1rem;
+}
+
+p {
+    border: 1px solid fuchsia;
 }
 
 
@@ -31,7 +38,6 @@ button {
     border: 1px solid peru;
     padding: .5rem;
     margin: .5rem;
-
 }
 
 #current_book_display {
@@ -54,4 +60,15 @@ button {
     border: 1px solid blue;
     padding: 1rem;
     margin: .5rem;
+}
+
+.bookCard {
+    border: 1px solid blue;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.hiddenInfo {
+    display: none;
+    
 }
