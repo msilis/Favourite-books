@@ -1,3 +1,46 @@
+/* Container styles*/
+
+#book_info_outer_container {
+    
+    background-color: gray;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: .5rem;
+}
+
+#book_info_display_container {
+    border-radius: 10px;
+    background-color: bisque;
+    padding: .5rem; 
+    margin: 1rem;
+}
+
+#book_info_edit_container {
+    border-radius: 10px;
+    background-color: bisque;
+    padding: .5rem;
+    margin: 1rem;
+}
+
+#book_quick_card_container{
+    background-color: gray;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: .5rem;
+}
+
+/* Card style*/
+
+.bookCard {
+    background-color: bisque;
+    border-radius: 10px;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+
+
+
 input {
     border: 1px solid lightblue;
     border-radius: 5px;
@@ -8,53 +51,23 @@ input {
 button {
     border: 1px solid lightblue;
     border-radius: 5px;
-    background-color: azure;
+    background-color: orange;
 }
 
 ul {
     margin: 1rem;
 }
 
-p {
-    border: 1px solid fuchsia;
-}
-
-
-#book_info_outer_container {
-    border: 1px solid red;
-}
-
-#book_info_edit_container {
-    border: 1px solid pink;
-    padding: .5rem;
-    margin: .5rem;
-}
-
 #book_data_submit {
     margin: .5rem;
 }
 
-#book_info_display_container {
-    border: 1px solid peru;
-    padding: .5rem;
-    margin: .5rem;
-}
-
-#current_book_display {
-    border: 1px solid lime;
-    padding: .5rem;
-    margin: .5rem;
-}
 
 #book_action_buttons {
     margin: .5rem;
 }
 
-#book_quick_card_list {
-    border: 1px solid salmon;
-    padding: .5rem;
-    margin: .5rem;
-}
+
 
 #book_quick_card_list {
     border: 1px solid blue;
@@ -62,11 +75,6 @@ p {
     margin: .5rem;
 }
 
-.bookCard {
-    border: 1px solid blue;
-    margin: .5rem;
-    padding: .5rem;
-}
 
 .hiddenInfo {
     display: none;
