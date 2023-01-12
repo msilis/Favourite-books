@@ -94,7 +94,14 @@ function handleCardClick(event){
 //More info handler
 function handleMoreInfo(event){
     let parent = event.target.parentNode.previousElementSibling;
-    parent.getElementsByTagName('span')[1].style.display = 'block';    
+        try{
+        parent.getElementsByTagName('span')[1].style.display = 'block';}
+        catch(err){
+            console.log(err)
+        }
+        
+    
+       
 }
 
 //Delete book handler
