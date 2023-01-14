@@ -5,26 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get your budget sorted!</title>
+    <link rel="stylesheet" type="text/css" href="./style/budget_style.css">
 </head>
 <body>
     <div class="budget_container">
         <div class="headline"><h1>Budget</h1></div>
-        <div id="income_card">
+        <div id="income_card_container">
+            <h3>Income</h3>
+            <div id="income_card">
 
-        </div>
-        <div class="expense_card">
+            </div>
+            </div>
+        <div id="expense_card_container">
+            <h3>Expenses</h3>
+            <div id="expense_card">
 
+            </div>
         </div>
         <div class="action_card">
             <div class="action_button_card">
+                <h3>Actions</h3>
                 <button type="submit" id="add_income_button">Add Income</button>
                 <button type="submit" id="add_expense_button">Add Expense</button>
                 <button type="submit" id="add_to_savings_button">Stash Savings</button>
             </div>
             <div class="disposable_income_card">
-
+                <h3>Disposable Income</h3>
+                <div id="display_disposable_income"></div>
             </div>
         </div>
     </div>
+    <script src="./script/budget.js"></script>
 </body>
 </html>
