@@ -118,6 +118,8 @@ function handleAddSavings(){
 }
 
 //Display disposable income
+
+//calculate total income
 let incomeAmounts = [];
 let incomeArray = JSON.parse(sessionStorage.getItem('income'));
 for (let i=0; i<incomeArray.length; i++){
@@ -125,6 +127,7 @@ for (let i=0; i<incomeArray.length; i++){
 }
 let totalIncome = incomeAmounts.reduce((acc, current) => acc + current, 0)
 
+//calculate total expenses
 let expenseAmounts = [];
 let expenseArray = JSON.parse(sessionStorage.getItem('expenses'));
 for (let i = 0; i<expenseArray.length; i++){
